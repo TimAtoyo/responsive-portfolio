@@ -27,4 +27,8 @@ If you have any questions or would like to get in touch, hang in there. I will b
 * This portfolio page is still under development, but I am excited to share it with the world. I am always looking for new ways to improve my skills and learn new things, so please feel free to reach out to me with any feedback or suggestions.
 * I am also open to new opportunities, so if you are looking for a talented and motivated developer, please consider me.
 
+**Github pages**
+
+* Deployed site: https://timatoyo.github.io/responsive-portfolio/
+
 Thank you for your time!
