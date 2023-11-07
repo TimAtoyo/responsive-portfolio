@@ -68,9 +68,11 @@ p {
   color: var(--primary-dark);
 }
 
-.header-container > h1 {
-  background-color: var(--secondary-light);
+.header-container .profile {
+  display: flex;
+  gap: 0px 0.5rem;
   padding: 0.3rem 1rem;
+  background-color: var(--secondary-light);
 }
 
 .nav-items {
@@ -290,6 +292,7 @@ p {
   .projects-container {
     gap: 1.8rem;
   }
+
   .page-section {
     flex-direction: column;
   }
