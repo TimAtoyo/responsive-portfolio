@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 
 :root {
   /* Primary colors */
@@ -238,6 +241,18 @@ p {
   background-image: url('../images/02-run-buddy.jpg');
   backdrop-filter: blur(10px);
 }
+
+
+.projects-container a {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+  transition: all;
+} 
+
+.projects-container a:hover {
+  opacity: 1;
+} 
+
 
 
 /* Contact Me */
