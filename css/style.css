@@ -63,7 +63,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2.5rem;
+  padding: 2rem 2.5rem;
   background-color: var(--primary-light);
   color: var(--primary-dark);
 }
@@ -85,6 +85,10 @@ p {
   list-style-type: none;
 }
 
+.nav-item a {
+  font-size: 1.5rem;
+}
+
 .nav-item a,
 .contact-links ul a {
   color: var(--text);
@@ -95,22 +99,22 @@ p {
 }
 
 /* To imlement over effect */
-.nav-item a:after {
+.nav-item a:after,.contact-links ul a:after {
   content: '';
   display: block;
   position: relative;
   width: 0%;
-  height: 2px;
+  height: 3px;
   background-color: var(--primary-dark);
   top: 0.1em;
   z-index: 5;
   transition: all 0.2s ease-in-out;
 }
 .nav-item a:hover {
-  color: var(--primary-dark);
+  color: var(--text);
 }
 
-.nav-item a:hover::after {
+.nav-item a:hover::after,.contact-links ul a:hover::after {
   width: 100%;
 }
 
@@ -150,6 +154,7 @@ p {
   margin-right: var(--margin-right);
   background-color:var(--secondary-light);
   padding: 0.2rem 0.5rem;
+  color: var(--background);
   
 }
 
@@ -216,6 +221,10 @@ p {
   background-size: cover;
   display: flex;
   align-items: end;
+  color: var(--background);
+  opacity: 1;
+  text-decoration: none;
+  border-radius: 1.4rem;
 }
 
 .surf {
@@ -255,7 +264,6 @@ p {
 .projects-container a {
   opacity: 0.8;
   transition: 0.2s ease-in-out;
-  transition: all;
 } 
 
 .projects-container a:hover {
