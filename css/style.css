@@ -88,24 +88,31 @@ p {
 .nav-item a,
 .contact-links ul a {
   color: var(--text);
-  text-underline-offset: 0.25rem;
-  text-decoration-thickness: 0.2rem;
-  
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 900;
+  transition: all 0.2s ease-in-out;
 }
 
 /* To imlement over effect */
-/* .nav-item a::after {
+.nav-item a:after {
   content: '';
-  position: absolute;
-  width: 100%;
-  height: auto;
-  background-color: var(--primary);
-  bottom: 0;
+  display: block;
+  position: relative;
+  width: 0%;
+  height: 2px;
+  background-color: var(--primary-dark);
+  top: 0.1em;
+  z-index: 5;
+  transition: all 0.2s ease-in-out;
+}
+.nav-item a:hover {
+  color: var(--primary-dark);
 }
 
 .nav-item a:hover::after {
-  top: 100%;
-} */
+  width: 100%;
+}
 
 /* To imlement over effect */
 
